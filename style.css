@@ -11,7 +11,6 @@
     position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     padding: 30px;
     font-size: 60px;
     letter-spacing: 7px;
@@ -24,3 +23,23 @@
     text-shadow: 2px 2px 4px #000000;
     border-radius: 10px;
 }
+
+    @media only screen and (max-width: 600px) {
+        #myclock{
+            position:absolute;
+            width: 80%;
+            top: 30%;
+            left: 12%;
+            padding: 10px;
+            font-size: 60px;
+            letter-spacing: 7px;
+            font-size: 40px;
+            background: #0000ff;
+            color: #ffffff;
+            border: 3px solid #ff0000;
+            padding: 20px;
+            box-shadow: 0 0 10px #ff0000;
+            text-shadow: 2px 2px 4px #000000;
+            border-radius: 10px;
+        }
+      }
